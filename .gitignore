@@ -1,1 +1,55 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+
+# -------------------------
+# Virtual Environment
+# -------------------------
 venv/
+env/
+ENV/
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Operating System Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Data / Outputs (optional)
+# -------------------------
+data/test_images/
+data/audio_samples/
+*.mp3
+*.wav
+*.mp4
+
+# -------------------------
+# YOLO / Model Weights (optional)
+# -------------------------
+models/yolov8n.pt
+models/yolov8s.pt
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
